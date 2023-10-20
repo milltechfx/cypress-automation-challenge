@@ -1,0 +1,32 @@
+{
+  "name": "cypress-auotmation-challenge",
+  "version": "1.0.0",
+  "description": "Cypress project to be used for the automation QA technical challenge",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --browser chrome",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milltechfx/cypress-auotmation-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milltechfx/cypress-auotmation-challenge/issues"
+  },
+  "homepage": "https://github.com/milltechfx/cypress-auotmation-challenge#readme",
+  "devDependencies": {
+    "cypress": "^13.3.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": ["cypress/e3e/**/*.{js,ts}"]
+  }
+}
