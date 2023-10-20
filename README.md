@@ -10,7 +10,7 @@ If, as you complete the challenge, you have any questions, please reachout to yo
 
 ## Context
 
-This project is intended to test the practice form page of the [demoqa](https://demoqa.com/) webiste. The acceptance criteria for this feature has been provided to you in the fillForm feature file. Your task is to complete the acceptance criteria and produce a working suite of tests.
+This project is intended to test the practice form page of the [demoqa](https://demoqa.com/) website. The acceptance criteria for this feature has been provided to you in the fillForm feature file. Your task is to complete the acceptance criteria and produce a working suite of tests.
 
 ## Challenge
 
